@@ -5,13 +5,35 @@ controller_manager:
       type: joint_state_broadcaster/JointStateBroadcaster
     joint_trajectory_controller:
       type: joint_trajectory_controller/JointTrajectoryController
+    velocity_controller:
+      type: velocity_controllers/JointGroupVelocityController
+    diff_drive_controller:
+      type: diff_drive_controller/DiffDriveController  
 
 joint_trajectory_controller:
   ros__parameters:
     joints:
-      - ak45_joint
+      - motor_1
+      - motor_2
+      - motor_3
+      - motor_4
     command_interfaces:
       - position
     state_interfaces:
       - position
       - velocity
+
+velocity_controller:
+  ros__parameters:
+    joints:
+      - motor_1
+      - motor_2
+      - motor_3
+      - motor_4
+diff_drive_controller:                                   # <-- its actual parameters
+  ros__parameters:
+    left_wheel_names:  ["motor_1", "motor_3"]
+    right_wheel_names: ["motor_2", "motor_4"]
+    wheel_separation: 0.50
+    wheel_radius:     0.10
+    use_stamped_vel: false

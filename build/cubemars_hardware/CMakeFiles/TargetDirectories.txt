@@ -1,0 +1,10 @@
+/home/marsworks/ben_ws_modified/build/cubemars_hardware/CMakeFiles/uninstall.dir
+/home/marsworks/ben_ws_modified/build/cubemars_hardware/CMakeFiles/cubemars_hardware_uninstall.dir
+/home/marsworks/ben_ws_modified/build/cubemars_hardware/CMakeFiles/cubemars_hardware.dir
+/home/marsworks/ben_ws_modified/build/cubemars_hardware/CMakeFiles/test.dir
+/home/marsworks/ben_ws_modified/build/cubemars_hardware/CMakeFiles/edit_cache.dir
+/home/marsworks/ben_ws_modified/build/cubemars_hardware/CMakeFiles/rebuild_cache.dir
+/home/marsworks/ben_ws_modified/build/cubemars_hardware/CMakeFiles/list_install_components.dir
+/home/marsworks/ben_ws_modified/build/cubemars_hardware/CMakeFiles/install.dir
+/home/marsworks/ben_ws_modified/build/cubemars_hardware/CMakeFiles/install/local.dir
+/home/marsworks/ben_ws_modified/build/cubemars_hardware/CMakeFiles/install/strip.dir

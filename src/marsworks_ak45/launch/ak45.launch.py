@@ -9,6 +9,8 @@ def generate_launch_description():
     xacro_file = os.path.join(pkg, "urdf", "ak45.urdf.xacro")
     robot_description = xacro.process_file(xacro_file).toxml()
     controllers_yaml = os.path.join(pkg, "config", "controllers.yaml")
+    mapper_pkg = get_package_share_directory("ak45_velocity_mapper")
+    mapper_yaml = os.path.join(mapper_pkg, "config", "diff_to_velocity.yaml")
 
     return LaunchDescription([
         Node(
@@ -29,7 +31,26 @@ def generate_launch_description():
         Node(
             package="controller_manager",
             executable="spawner",
-            arguments=["joint_trajectory_controller"],
+            arguments=["velocity_controller"],
+            output="screen",
+        ),
+        Node(
+            package="controller_manager",
+            executable="spawner",
+            arguments=["joint_trajectory_controller", "--inactive"],
+            output="screen",
+        ),
+        Node(
+            package="controller_manager",
+            executable="spawner",
+            arguments=["diff_drive_controller", "--inactive"],
+            output="screen",
+        ),
+        Node(
+            package="ak45_velocity_mapper",
+            executable="diff_to_velocity",
+            name="diff_to_velocity",
+            parameters=[mapper_yaml],
             output="screen",
         ),
     ])

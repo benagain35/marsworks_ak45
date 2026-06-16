@@ -1,0 +1,28 @@
+[1.528s] Invoking command in '/home/marsworks/ben_ws_modified/build/ak45_velocity_mapper': PYTHONPATH=/home/marsworks/ben_ws_modified/build/ak45_velocity_mapper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/marsworks/ben_ws_modified/install/ak45_velocity_mapper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/marsworks/ben_ws_modified/build/ak45_velocity_mapper/build --no-deps symlink_data
+[2.090s] running develop
+[2.459s] running egg_info
+[2.459s] creating ak45_velocity_mapper.egg-info
+[2.459s] writing ak45_velocity_mapper.egg-info/PKG-INFO
+[2.460s] writing dependency_links to ak45_velocity_mapper.egg-info/dependency_links.txt
+[2.460s] writing entry points to ak45_velocity_mapper.egg-info/entry_points.txt
+[2.460s] writing requirements to ak45_velocity_mapper.egg-info/requires.txt
+[2.461s] writing top-level names to ak45_velocity_mapper.egg-info/top_level.txt
+[2.461s] writing manifest file 'ak45_velocity_mapper.egg-info/SOURCES.txt'
+[2.465s] reading manifest file 'ak45_velocity_mapper.egg-info/SOURCES.txt'
+[2.466s] writing manifest file 'ak45_velocity_mapper.egg-info/SOURCES.txt'
+[2.469s] running build_ext
+[2.470s] Creating /home/marsworks/ben_ws_modified/install/ak45_velocity_mapper/lib/python3.10/site-packages/ak45-velocity-mapper.egg-link (link to .)
+[2.471s] Installing diff_to_velocity script to /home/marsworks/ben_ws_modified/install/ak45_velocity_mapper/lib/ak45_velocity_mapper
+[2.472s] 
+[2.472s] Installed /home/marsworks/ben_ws_modified/build/ak45_velocity_mapper
+[2.472s] running symlink_data
+[2.473s] creating /home/marsworks/ben_ws_modified/install/ak45_velocity_mapper/share/ament_index
+[2.473s] creating /home/marsworks/ben_ws_modified/install/ak45_velocity_mapper/share/ament_index/resource_index
+[2.473s] creating /home/marsworks/ben_ws_modified/install/ak45_velocity_mapper/share/ament_index/resource_index/packages
+[2.473s] symbolically linking /home/marsworks/ben_ws_modified/build/ak45_velocity_mapper/resource/ak45_velocity_mapper -> /home/marsworks/ben_ws_modified/install/ak45_velocity_mapper/share/ament_index/resource_index/packages
+[2.473s] symbolically linking /home/marsworks/ben_ws_modified/build/ak45_velocity_mapper/package.xml -> /home/marsworks/ben_ws_modified/install/ak45_velocity_mapper/share/ak45_velocity_mapper
+[2.473s] creating /home/marsworks/ben_ws_modified/install/ak45_velocity_mapper/share/ak45_velocity_mapper/config
+[2.474s] symbolically linking /home/marsworks/ben_ws_modified/build/ak45_velocity_mapper/config/diff_to_velocity.yaml -> /home/marsworks/ben_ws_modified/install/ak45_velocity_mapper/share/ak45_velocity_mapper/config
+[2.474s] creating /home/marsworks/ben_ws_modified/install/ak45_velocity_mapper/share/ak45_velocity_mapper/launch
+[2.474s] symbolically linking /home/marsworks/ben_ws_modified/build/ak45_velocity_mapper/launch/diff_to_velocity.launch.py -> /home/marsworks/ben_ws_modified/install/ak45_velocity_mapper/share/ak45_velocity_mapper/launch
+[2.559s] Invoked command in '/home/marsworks/ben_ws_modified/build/ak45_velocity_mapper' returned '0': PYTHONPATH=/home/marsworks/ben_ws_modified/build/ak45_velocity_mapper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/marsworks/ben_ws_modified/install/ak45_velocity_mapper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/marsworks/ben_ws_modified/build/ak45_velocity_mapper/build --no-deps symlink_data

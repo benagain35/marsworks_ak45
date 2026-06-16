@@ -1,0 +1,3 @@
+/home/marsworks/ben_ws_modified/install/cubemars_hardware/lib/libcubemars_hardware.so
+/home/marsworks/ben_ws_modified/install/cubemars_hardware/share/cubemars_hardware/cmake/export_cubemars_hardwareExport.cmake
+/home/marsworks/ben_ws_modified/install/cubemars_hardware/share/cubemars_hardware/cmake/export_cubemars_hardwareExport-noconfig.cmake

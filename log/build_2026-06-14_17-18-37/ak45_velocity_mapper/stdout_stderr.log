@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating ak45_velocity_mapper.egg-info
+writing ak45_velocity_mapper.egg-info/PKG-INFO
+writing dependency_links to ak45_velocity_mapper.egg-info/dependency_links.txt
+writing entry points to ak45_velocity_mapper.egg-info/entry_points.txt
+writing requirements to ak45_velocity_mapper.egg-info/requires.txt
+writing top-level names to ak45_velocity_mapper.egg-info/top_level.txt
+writing manifest file 'ak45_velocity_mapper.egg-info/SOURCES.txt'
+reading manifest file 'ak45_velocity_mapper.egg-info/SOURCES.txt'
+writing manifest file 'ak45_velocity_mapper.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/marsworks/ben_ws_modified/install/ak45_velocity_mapper/lib/python3.10/site-packages/ak45-velocity-mapper.egg-link (link to .)
+Installing diff_to_velocity script to /home/marsworks/ben_ws_modified/install/ak45_velocity_mapper/lib/ak45_velocity_mapper
+
+Installed /home/marsworks/ben_ws_modified/build/ak45_velocity_mapper
+running symlink_data
+creating /home/marsworks/ben_ws_modified/install/ak45_velocity_mapper/share/ament_index
+creating /home/marsworks/ben_ws_modified/install/ak45_velocity_mapper/share/ament_index/resource_index
+creating /home/marsworks/ben_ws_modified/install/ak45_velocity_mapper/share/ament_index/resource_index/packages
+symbolically linking /home/marsworks/ben_ws_modified/build/ak45_velocity_mapper/resource/ak45_velocity_mapper -> /home/marsworks/ben_ws_modified/install/ak45_velocity_mapper/share/ament_index/resource_index/packages
+symbolically linking /home/marsworks/ben_ws_modified/build/ak45_velocity_mapper/package.xml -> /home/marsworks/ben_ws_modified/install/ak45_velocity_mapper/share/ak45_velocity_mapper
+creating /home/marsworks/ben_ws_modified/install/ak45_velocity_mapper/share/ak45_velocity_mapper/config
+symbolically linking /home/marsworks/ben_ws_modified/build/ak45_velocity_mapper/config/diff_to_velocity.yaml -> /home/marsworks/ben_ws_modified/install/ak45_velocity_mapper/share/ak45_velocity_mapper/config
+creating /home/marsworks/ben_ws_modified/install/ak45_velocity_mapper/share/ak45_velocity_mapper/launch
+symbolically linking /home/marsworks/ben_ws_modified/build/ak45_velocity_mapper/launch/diff_to_velocity.launch.py -> /home/marsworks/ben_ws_modified/install/ak45_velocity_mapper/share/ak45_velocity_mapper/launch

@@ -1,0 +1,45 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ros2_control: 2.51.0 (/opt/ros/humble/share/ros2_control/cmake)
+-- Found ros2_controllers: 2.48.0 (/opt/ros/humble/share/ros2_controllers/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/marsworks/ben_ws_modified/build/marsworks_ak45
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/marsworks/ben_ws_modified/install/marsworks_ak45/share/ament_index/resource_index/package_run_dependencies/marsworks_ak45
+-- Symlinking: /home/marsworks/ben_ws_modified/install/marsworks_ak45/share/ament_index/resource_index/parent_prefix_path/marsworks_ak45
+-- Symlinking: /home/marsworks/ben_ws_modified/install/marsworks_ak45/share/marsworks_ak45/environment/ament_prefix_path.sh
+-- Symlinking: /home/marsworks/ben_ws_modified/install/marsworks_ak45/share/marsworks_ak45/environment/ament_prefix_path.dsv
+-- Symlinking: /home/marsworks/ben_ws_modified/install/marsworks_ak45/share/marsworks_ak45/environment/path.sh
+-- Symlinking: /home/marsworks/ben_ws_modified/install/marsworks_ak45/share/marsworks_ak45/environment/path.dsv
+-- Symlinking: /home/marsworks/ben_ws_modified/install/marsworks_ak45/share/marsworks_ak45/local_setup.bash
+-- Symlinking: /home/marsworks/ben_ws_modified/install/marsworks_ak45/share/marsworks_ak45/local_setup.sh
+-- Symlinking: /home/marsworks/ben_ws_modified/install/marsworks_ak45/share/marsworks_ak45/local_setup.zsh
+-- Symlinking: /home/marsworks/ben_ws_modified/install/marsworks_ak45/share/marsworks_ak45/local_setup.dsv
+-- Symlinking: /home/marsworks/ben_ws_modified/install/marsworks_ak45/share/marsworks_ak45/package.dsv
+-- Symlinking: /home/marsworks/ben_ws_modified/install/marsworks_ak45/share/ament_index/resource_index/packages/marsworks_ak45
+-- Symlinking: /home/marsworks/ben_ws_modified/install/marsworks_ak45/share/marsworks_ak45/cmake/marsworks_ak45Config.cmake
+-- Symlinking: /home/marsworks/ben_ws_modified/install/marsworks_ak45/share/marsworks_ak45/cmake/marsworks_ak45Config-version.cmake
+-- Symlinking: /home/marsworks/ben_ws_modified/install/marsworks_ak45/share/marsworks_ak45/package.xml
+-- Symlinking: /home/marsworks/ben_ws_modified/install/marsworks_ak45/share/marsworks_ak45/launch/ak45.launch.py
+-- Symlinking: /home/marsworks/ben_ws_modified/install/marsworks_ak45/share/marsworks_ak45/urdf/ak45.urdf.xacro
+-- Symlinking: /home/marsworks/ben_ws_modified/install/marsworks_ak45/share/marsworks_ak45/config/controllers.yaml

@@ -1,0 +1,3 @@
+[console_scripts]
+diff_to_velocity = ak45_velocity_mapper.diff_to_velocity:main
+
